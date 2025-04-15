@@ -1,30 +1,126 @@
-body {
-    background-color: white;
-    
-}
-.cajitafeliz {
-    width: 50px;
-    height: 50px;
-    background-color: orangered;
-    z-index: -1;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.box {
-    width: 100%;
-    height: 50px;
-    background-color: #928a8a;
-    position: absolute;
-    top: 1;
-    z-index: -1;
-    border-radius: 0;
-}
+header {
+    background-color: #fff;
+  }
+
+.barra-navegacion {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    background-color: #f2f2f2;
+  }
 
 
+.logo {
+    width: 40px;
+    height: 20px;
+    background-color: coral;
+  }
+
+  .buscador {
+    flex: 1;
+    height: 20px;
+    background-color: #ddd;
+  }
+  
+  .boton-buscar {
+    width: 30px;
+    height: 20px;
+    background-color: #555;
+  }
+  
 
 .search-bar {
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    margin: 0 10px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6d2d2d;
+  margin: 0 auto;
 }
 
+
+.search-bar2 {
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #000; 
+}
+
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.menu-links div {
+    width: 80px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+.destacado {
+    background-color: #c6eef3;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagen-destacada {
+    width: 150px;
+    height: 150px;
+    background-color: #8ed3da;
+}
+
+.texto-destacado .titulo {
+    width: 200px;
+    height: 20px;
+    background-color: #444;
+    margin-bottom: 10px;
+}
+
+.texto-destacado .linea {
+    width: 250px;
+    height: 8px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.texto-destacado .linea-corta {
+    width: 150px;
+    height: 8px;
+    background-color: white;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.tarjeta {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjeta.naranja {
+    background-color: #ffa07a;
+
+}
