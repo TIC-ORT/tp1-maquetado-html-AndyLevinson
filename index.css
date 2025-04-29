@@ -6,7 +6,7 @@
 
 header {
     background-color: #fff;
-  }
+}
 
 .barra-navegacion {
     display: flex;
@@ -14,43 +14,27 @@ header {
     align-items: center;
     gap: 10px;
     background-color: #f2f2f2;
-  }
-
+}
 
 .logo {
     width: 40px;
     height: 20px;
     background-color: coral;
-  }
+}
 
-  .buscador {
+.buscador {
     flex: 1;
     height: 20px;
     background-color: #ddd;
-  }
-  
-  
-
-.search-bar {
-  width: 300px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  margin: 0 auto;
 }
 
-
-
 .menu-links {
-    width: 80px;
-    height: 10px;
-    background-color: #fcfcfc;
+    width: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     padding: 15px 0;
-    background-color: #ff0000;
+    margin-top: 15px;
 }
 
 .destacado {
@@ -59,32 +43,34 @@ header {
     padding: 40px;
     align-items: center;
     gap: 30px;
+    margin-top: 20px;
 }
 
 .imagen-destacada {
     width: 150px;
     height: 150px;
     background-color: #8ed3da;
+    flex-shrink: 0;
 }
 
 .texto-destacado .titulo {
     width: 200px;
     height: 20px;
-    background-color: #444;
+    background-color: #000;
     margin-bottom: 10px;
 }
 
 .texto-destacado .linea {
     width: 250px;
     height: 8px;
-    background-color: white;
+    background-color: #ffff;
     margin-bottom: 5px;
 }
 
 .texto-destacado .linea-corta {
     width: 150px;
     height: 8px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .tarjetas {
@@ -104,5 +90,42 @@ header {
 
 .tarjeta.naranja {
     background-color: #ffa07a;
+}
 
+.fondo-buscar {
+    display: flex;
+    width: 60%;
+    max-width: 500px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.fondo-buscar input[type="search"] {
+    flex-grow: 1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #FF7F50;
+    color: #fff;
+    outline: none;
+}
+
+.fondo-buscar input[type="search"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.fondo-buscar button {
+    border: none;
+    padding: 10px 15px;
+    background-color: #4A4A4A;
+    color: white;
+    font-size: 1rem;
+}
+
+.fondo-buscar button:hover {
+    background-color: #333;
+}
+
+.fondo-buscar button i {
+    display: block;
 }
