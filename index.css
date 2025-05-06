@@ -46,7 +46,7 @@ header {
     margin-top: 20px;
 }
 
-.imagen-destacada {
+.foto-destacada {
     width: 150px;
     height: 150px;
     background-color: #8ed3da;
@@ -73,13 +73,13 @@ header {
     background-color: #fff;
 }
 
-.tarjetas {
+.cajas {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
 }
 
-.tarjeta {
+.caja {
     width: 180px;
     height: 180px;
     padding: 15px;
@@ -88,7 +88,7 @@ header {
     justify-content: center;
 }
 
-.tarjeta.naranja {
+.caja.naranja {
     background-color: #ffa07a;
 }
 
@@ -110,9 +110,7 @@ header {
     outline: none;
 }
 
-.fondo-buscar input[type="search"]::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
+
 
 .fondo-buscar button {
     border: none;
@@ -129,3 +127,49 @@ header {
 .fondo-buscar button i {
     display: block;
 }
+.cajas {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.caja {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.caja.naranja {
+    background-color: #ffa07a;
+    align-items: flex-start; 
+}
+
+.caja.celeste {
+    background-color: #add8e6;
+}
+
+.caja.amarillo {
+    background-color: #ffd700;
+}
+
+.contenido-caja {
+    width: 100%;
+}
+
+.linea-caja {
+    background-color: #fff;
+    height: 10px;
+    margin-bottom: 8px;
+    width: 60%;
+}
+
+.linea-caja-media {
+    background-color: #fff;
+    height: 10px;
+    width: 80%;
+    margin-bottom: 8px;
+}
+
